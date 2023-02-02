@@ -14,7 +14,7 @@ const user = inject(userInjectionKey);
 
 //events
 const emit = defineEmits<{
-  (e: "create", entry:Entry): void;
+  (e: "@create", entry:Entry): void;
 }>();
 
 //template refs

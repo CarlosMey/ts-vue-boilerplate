@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import TheHeader from "@/components/TheHeader.vue";
-import EntryEditor from "./components/EntryEditor.vue";
+import EntryEditor from "@/components/EntryEditor.vue";
 import EntryCard from "@/components/EntryCard.vue";
 import {reactive, provide, inject} from 'vue';
 import type User from "./types/User";
@@ -13,14 +13,12 @@ const user: User = reactive({
   settings: [],
 });
 provide(userInjectionKey, user);
-console.log(user.id);
 
 // in child component
 
 
 const handleCreateEntry = (entry: Entry) => {
   entries.unshift(entry);
-  console.log(entry)
 }
 
 </script>
