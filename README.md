@@ -1,11 +1,15 @@
-# Boilerplate Code for Typescript with Vue.js 3 Course
+### Considerations
+- Nodejs 16
+- Vue 3
+- Typescript 4.5.5
 
-This is the boilerplate code for the TypeScript with Vue.js 3 Course.
+### See de Proyect deployed
+```sh
+https://carlosmey.github.io/ts-vue-boilerplate/
+```
+
 
 ## How to Install
-```sh
-npx degit vueschool/ts-vue-boilerplate 
-```
 ```sh
 npm install
 npm run dev
